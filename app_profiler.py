@@ -33,11 +33,11 @@ st.markdown(
     """
     <style>
     body {
-        background-color: #ffd1dc;
+        background-color: #black;
     }
 
     .stApp {
-        background-color: #ffd1dc;
+        background-color: #black;
     }
 
     .butterfly {
@@ -131,4 +131,5 @@ for exp in cv["experience"]:
 # Add a contact section
 st.header("Contact Information")
 email = "koketso.monyethabene@gmail.com"
+
 st.write(f"You can reach {name} at {email}.")
